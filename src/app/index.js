@@ -36,7 +36,7 @@ class App extends React.Component<any, AppPropsState> {
     name: string,
     size: number,
     balance: number,
-    key: number
+    key: string
   }): void => {
     Api.auth({
       uid: data.uid,
@@ -61,6 +61,7 @@ class App extends React.Component<any, AppPropsState> {
 
   renderFrame = (): React.Element<any> => (
     <iframe
+      title="game"
       src={this.state.frameLink}
       width={this.state.frameSize}
       height={this.state.frameSize / 2}

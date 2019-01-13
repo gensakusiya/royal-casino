@@ -12,7 +12,7 @@ type State = {
   name: string,
   size: number,
   balance: number,
-  key: number
+  key: string
 };
 
 export default class Table extends React.Component<Props, State> {
@@ -21,7 +21,7 @@ export default class Table extends React.Component<Props, State> {
     name: '',
     size: 0,
     balance: 0,
-    key: 0
+    key: ''
   };
   
   handleChange = (field: string, value: string | number): void => this.setState({
@@ -79,7 +79,7 @@ export default class Table extends React.Component<Props, State> {
             placeholder="key"
             addonBefore="key"
             value={key}
-            onChange={(e: Object) => this.handleChange('key', Number(e.target.value))}
+            onChange={(e: Object) => this.handleChange('key', e.target.value)}
           />
         </div>
         <Button onClick={this.handleClick}>Играть</Button>

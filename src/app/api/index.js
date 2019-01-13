@@ -5,7 +5,7 @@ const ROOT_URI = "http://testappslab.ru:8001";
 type AuthData = {
   uid: string,
   username: string,
-  secret: number,
+  secret: string,
   balance: Object
 };
 
@@ -13,7 +13,11 @@ class Api {
   auth = (data: AuthData): fetch => {
     return fetch(`${ROOT_URI}/api/partners/auth`, {
       method: "POST",
-      data: JSON.stringify(data)
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data)
     }).then(res => res.json());
   };
 
