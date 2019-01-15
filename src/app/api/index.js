@@ -6,7 +6,7 @@ type AuthData = {
   uid: string,
   username: string,
   secret: string,
-  balance: Object
+  balance: number
 };
 
 class Api {

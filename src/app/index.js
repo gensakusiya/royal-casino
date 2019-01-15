@@ -42,7 +42,7 @@ class App extends React.Component<any, AppPropsState> {
       uid: data.uid,
       username: data.name,
       secret: data.key,
-      balance: { balance: data.balance }
+      balance: data.balance
     }).then((res: any) => {
       if (res.error) {
         this.setState({
