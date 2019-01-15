@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/royal-casino/precache-manifest.2c65fad844b1ad4cae3300b7e4d2f0db.js"
+  "/royal-casino/precache-manifest.8026d60dc63897605cb7cec7a4d6be60.js"
 );
 
 workbox.clientsClaim();

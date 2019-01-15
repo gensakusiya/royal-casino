@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/royal-casino/static/js/runtime~main.427a567f.js"
   },
   {
-    "revision": "d90bf2d68426aeb25b3b",
-    "url": "/royal-casino/static/js/main.d90bf2d6.chunk.js"
+    "revision": "b0808ba1cb7602badc83",
+    "url": "/royal-casino/static/js/main.b0808ba1.chunk.js"
   },
   {
     "revision": "c6573af11b619aecba70",
     "url": "/royal-casino/static/js/1.c6573af1.chunk.js"
   },
   {
-    "revision": "d90bf2d68426aeb25b3b",
+    "revision": "b0808ba1cb7602badc83",
     "url": "/royal-casino/static/css/main.a50b7038.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/royal-casino/static/css/1.4fbee686.chunk.css"
   },
   {
-    "revision": "a2c3cff7ead4cc803c439b1a3699d99a",
+    "revision": "752be6f42b1da980c4d0e0f2a5a48676",
     "url": "/royal-casino/index.html"
   }
 ];
